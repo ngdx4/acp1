@@ -6,4 +6,5 @@ pwd - localização do arquivos
 butão tab - termina de escrever o texto da IA
 setas cima baixo - repetem o ultimo comando
 gcc "nome do arquivo completo" - cria o arquivo a.out
-gcc "nome do arquivo completo" -o "nome do arquivo a.out" - cria o arquivo a.out
+gcc "nome do arquivo completo" -o "nome do arquivo a.out" - cria o arquivo com um nome personalisado
+./ nome do compilado - inicia o programa

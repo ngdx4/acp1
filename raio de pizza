@@ -11,3 +11,7 @@ int main() {
 
   return 0;
 }
+/*
+comandos no shell:
+./a.out
+gcc nome do arquivo*/

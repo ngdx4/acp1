@@ -1,0 +1,9 @@
+ls - lista de arquivos
+cd "nome da pasta" - acessar pasta
+cd - volta a pasta
+clear - limpa o shell
+pwd - localização do arquivos
+butão tab - termina de escrever o texto da IA
+setas cima baixo - repetem o ultimo comando
+gcc "nome do arquivo completo" - cria o arquivo a.out
+gcc "nome do arquivo completo" -o "nome do arquivo a.out" - cria o arquivo a.out

@@ -1,0 +1,97 @@
+imposto
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+  float produto = 0.0;
+  float icms = 0.17;
+  float cofins = 0.076;
+  float pis_pasep = 0.0165;
+  
+  printf("o valor do produto em R$: ");
+  scanf("%f", &produto);
+  float impostos = icms+cofins+pis_pasep+1;
+  float produto_com_impostos = produto * impostos;
+  float valor_dos_impostos = produto_com_impostos - produto;
+  printf("seu produto com imposto é: R$%f\n", produto_com_impostos);
+  printf("quantidade de imposto: R$%f\n", valor_dos_impostos);
+
+  return 0;
+}
+
+
+media
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+  float A1 = 0;
+  float A2 = 0;
+  printf("Digite a sua nota na A1: ");
+  scanf("%f", &A1);
+  printf("Digite a sua nota na A2: ");
+  scanf("%f", &A2);
+  float media = A1*0.4 + A2*0.6;
+  printf("sua media é: %f\n", media);
+
+  return 0;
+}
+
+
+area triangulo
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+  float base = 0;
+  float altura = 0;
+  printf("Digite a base do triangulo em cm? ");
+  scanf("%f", &base);
+  printf("Digite a altura do triangulo em cm? ");
+  scanf("%f", &altura);
+  float area_triangulo = base*altura/2;
+  printf("sua media é: %f\n", area_triangulo, "cm");
+
+  return 0;
+}
+
+
+area pizza
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+  
+  float pi = 3.1416;
+  float raio = 0.0;
+  printf("Digite o raio da pizza:");
+  scanf("%f", &raio);
+  float area_da_pizza = pi*raio*raio;
+  printf("area da pizza é %f\n", area_da_pizza);
+
+  return 0;
+}
+
+
+soma culculadora
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+  float n1 = 0.0;
+  float n2 = 0.0;
+
+  printf("Digite um número:");
+  scanf("%f", &n1);
+  printf("Digite outro número:");
+  scanf("%f", &n2);
+  float resultado = n1 + n2;
+  printf("a soma é %f\n", resultado);
+}

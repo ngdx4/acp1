@@ -10,8 +10,3 @@ int main() {
   printf("area da pizza é %f\n", area_da_pizza);
 
   return 0;
-}
-/*
-comandos no shell:
-./a.out
-gcc nome do arquivo*/

@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+  float n1 = 0.0;
+  float n2 = 0.0;
+
+  printf("Digite um número:");
+  scanf("%f", n1);
+  printf("Digite outro número:");
+  scanf("%f", n2);
+  float resultado = n1 + n2;
+  prinf("a soma é %f", resultado);
+}

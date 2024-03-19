@@ -1,0 +1,20 @@
+NOME: DAVI ROBERTO
+OBJETIVO: CALCULAR AUMENTO SALARIAL
+DATA: 19/03/2024
+
+ALGORITIMO
+DECLARE NUMERICO REAL salario
+SALARIO = 5000
+DECLARE NUMERICO REAL aumento_anual
+aumento_anual = 0,05
+DECLARE CONST NUMERICO REAL BONUS
+BONUS = 0,02
+DECLARE NUMERICO REAL salario_aumentado
+salario_aumentado = salario * aumento_anual + salario
+
+
+PARA i = 0 ate 9
+
+salario*aumento_anual + salario + 
+
+FIM_ALGORITIMOS

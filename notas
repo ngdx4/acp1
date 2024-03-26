@@ -26,3 +26,11 @@ x  y
 
 %d é para int
 %f é para float
+%.1lf vai imprimir 1 casa decimal
+lf = long float
+
+
+for (i = 0; i <= 10; i++)
+antes do primeiro ; define o valor inicial de i ( so define na primeira vez)
+
+(i ++) = (i = i + 1)

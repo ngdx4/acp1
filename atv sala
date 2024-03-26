@@ -18,3 +18,15 @@ PARA i = 0 ate 9
 salario*aumento_anual + salario + 
 
 FIM_ALGORITIMOS
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+float salario_base = 0.0;
+float aumento_salarial = 0.0;
+
+const float BONUS = 0.0;
+}
